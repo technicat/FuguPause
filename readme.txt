@@ -1,5 +1,4 @@
-Version 1.0
-Initial version
+This code is made available under the MIT License (see the LICENSE file in this distribution).
 
 This pause menu is a variant of one I put on the Unify community wiki a few years ago. Features dependent on Unity Pro have been commented out (the image effect and movie). I added #pragma strict to make it a little easier to port to mobile if you want to. It's implemented with UnityGUI and pauses by setting Time.timeScale to zero, which will effectively pause any physics, animation, any calls to FixedUpdate and any Update code dependent on Time.timeScale (although that seems unreliable if you start the game paused). It also sets AudioListener.pause to pause any sounds.
 
