@@ -11,7 +11,7 @@ To customize how the pause menu is invoked, e.g. replace the ESC key with anothe
 
 The "mat" property in the script is the material used for rendering the FPS graph that you can toggle on in the Stats option. As in the demo scene, I just assign a vertex-lit material to it.
 
-The waterfall sound in the sample scene is taken from the Unity Technologies Sewer Demo.
+A project with the menu in a sample scene is on the Unity Asset Store. The waterfall sound in the sample scene is taken from the Unity Technologies Sewer Demo.
 
 Please direct any questions to the Fugu Games Facebook page,
 http://facebook.com/fugugames or either the Fugu Games thread in the Unity
